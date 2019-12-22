@@ -1,5 +1,9 @@
-def my_hash
- hash = { "my_name" => "Alexis", "my_age" => "27" }
+ my_hash.do
+      expect(my_hash).to be_a(Hash)
+      expect(my_hash.keys.count).to_not eq(0)
+
+my_hash = { “my_name” => “Alexis”, “my_age” => “27” }
+	end
 end
   
 
